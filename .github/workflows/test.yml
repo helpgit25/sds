@@ -1,4 +1,5 @@
 name: Demo project
+run-name: "${{ github.respository }}"
 on: [push, workflow_dispatch] 
 jobs:
   test:
